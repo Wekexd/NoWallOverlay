@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "nowalloverlay",
+  "version": "1.0",
+  "name": "noWallOverlay",
+  "description": "",
+  "authors": [
+    "W3ke"
+  ],
+  "contact": {
+    "repo": "https://github.com/weke/noWallOverlay"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.w3ke.nowalloverlay.client.NoWallOverlayClient"
+    ],
+    "main": [
+      "me.w3ke.nowalloverlay.NoWallOverlay"
+    ]
+  },
+  "mixins": [
+    "nowalloverlay.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.24",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}

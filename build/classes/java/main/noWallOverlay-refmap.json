@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "me/w3ke/nowalloverlay/mixin/NoWallOverlayMixin": {
+      "renderInWallOverlay": "Lnet/minecraft/class_4603;method_23068(Lnet/minecraft/class_1058;Lnet/minecraft/class_4587;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "me/w3ke/nowalloverlay/mixin/NoWallOverlayMixin": {
+        "renderInWallOverlay": "Lnet/minecraft/class_4603;method_23068(Lnet/minecraft/class_1058;Lnet/minecraft/class_4587;)V"
+      }
+    }
+  }
+}
